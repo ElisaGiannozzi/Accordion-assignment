@@ -1,0 +1,63 @@
+body {
+    margin: 0;  
+    background-color: #F6704B; 
+    font-family: Calibri; 
+}
+
+.accordion-container {
+    display: flex; 
+    flex-direction: column;  
+    align-items: center; 
+    max-width: 400px; 
+    max-height: 150px;
+    margin: auto;  
+}
+
+.location-wrapper, .music-wrapper, .notes-wrapper,
+.books-wrapper, .tendances-wrapper {
+    width: 100%;
+    
+}
+
+.location, .music, .tendances {
+    color: #FFE9C1; 
+    font-size: 20px; 
+}
+
+.notes, .books {
+    color: #620808;
+    font-size: 20px; 
+}
+
+.location, .music, .notes, .books, .tendances {
+    display: flex; 
+}
+
+.location, .location-paragraph {
+    background-color: #620808; 
+}
+
+.music, .music-paragraph {
+    background-color: #A53F3F;
+}
+
+.notes, .notes-paragraph {
+    background-color: #F4CE74;
+}
+
+.books, .books-paragraph {
+    background-color: #FFE9C1;
+}
+
+.tendances, .tendances-paragraph {
+    background-color: #D5441C;
+}
+
+p {
+    margin: 0; 
+}
+
+.location-paragraph, .music-paragraph, .notes-paragraph, 
+.books-paragraph, .tendances-paragraph {
+    display: none; 
+}
