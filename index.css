@@ -22,11 +22,27 @@ body {
 .location, .music, .tendances {
     color: #FFE9C1; 
     font-size: 20px; 
+    align-items: center;  
 }
 
 .notes, .books {
     color: #620808;
-    font-size: 20px; 
+    font-size: 20px;
+    align-items: center;  
+}
+
+.location-paragraph, .music-paragraph, .tendances-paragraph {
+    color: #FFE9C1; 
+    padding: 10px; 
+}
+
+.notes-paragraph, .books-paragraph {
+    color: #620808;
+    padding: 10px; 
+}
+
+.location, .music, .notes, .books, .tendances:hover {
+    cursor: pointer; 
 }
 
 .location, .music, .notes, .books, .tendances {
